@@ -37,7 +37,7 @@ O layout é totalmente responsivo, organizado com grids e cards, garantindo clar
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/Jennyferbp/Site-imobili-ria
+git clone https://github.com/Jennyferbp/bellagio_imovel.git
 
 # Acessar a pasta do projeto
 cd Site-imobili-ria
