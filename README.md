@@ -8,11 +8,11 @@ O layout é totalmente responsivo, organizado com grids e cards, garantindo clar
 
 ## 🚀 Demonstração
 
-![HOME](./img/inicio.png)
+![HOME](https://github.com/Jennyferbp/bellagio_imovel/blob/843b0efed4bfee53ae57040ce7e6f9d244b7b665/imob/img/inicio.png)
 
-![SERVICOS E DESTAQUES](./img/servico_destaques.png)
+![SERVICOS E DESTAQUES](https://github.com/Jennyferbp/bellagio_imovel/blob/843b0efed4bfee53ae57040ce7e6f9d244b7b665/imob/img/servico_destaques.png)
 
-![CONTATO](./img/contato.png)
+![CONTATO](https://github.com/Jennyferbp/bellagio_imovel/blob/843b0efed4bfee53ae57040ce7e6f9d244b7b665/imob/img/contato.png)
 
 
 ---
@@ -40,8 +40,7 @@ O layout é totalmente responsivo, organizado com grids e cards, garantindo clar
 git clone https://github.com/Jennyferbp/bellagio_imovel.git
 
 # Acessar a pasta do projeto
-cd Site-imobili-ria
-
+cd imob
 
 # Instale as dependências (se houver)
 npm install
