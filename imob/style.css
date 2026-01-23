@@ -132,12 +132,12 @@ section {
 ************************/
 
 .contato-form {
-  padding: 60px;
-  max-width: 600px;
+  padding: 50px;
+  max-width: 500px;
   margin: 50px auto;
   background: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 15px rgba(0,0,0,0.1);
 
 }
 .contato-form input {
@@ -158,4 +158,80 @@ footer {
   text-align: center;
   padding: 30px;
   margin-top: 60px;
+}
+
+/*********************************
+  RESPONSIVO PARA CELULAR
+*********************************/
+@media (max-width: 768px) {
+
+  /* Header */
+  header {
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  header nav a {
+    margin: 5px;
+    font-size: 14px;
+  }
+
+  /* HOME */
+  .home-content {
+    padding: 20px;
+  }
+
+  .home-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .home-content p {
+    font-size: 1rem;
+  }
+
+  /* Sections */
+  section {
+    padding: 40px 20px;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  /* Cards */
+  .feature-card {
+    padding: 20px;
+  }
+
+  /* Imóveis */
+  .imoveis-grid {
+    grid-template-columns: 1fr; /* 1 coluna no celular */
+  }
+
+  .imovel-card img {
+    height: 180px;
+  }
+
+  /* Formulário */
+  .contato-form {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .contato-form input {
+    width: 90%;
+  }
+
+  /* Botões */
+  body button {
+    width: 100%;
+    padding: 12px;
+  }
 }
